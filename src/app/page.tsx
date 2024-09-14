@@ -11,12 +11,12 @@ function page() {
       <div className="container  ">
       <ProductsCard imageList={popularProducts} location={"USA"} slug={"Popular"} url={"top-product"}/> 
       <ProductsCard imageList={newProducts} location={"USA"} slug={"New"} url={"new-product"}/>  
-      {/* <GiftCard list={giftCard} />    */}
-      {/* <Promotions list={promotionsDetails} />    */}
-      {/* <ManageGiftCards   />    */}
+      <GiftCard list={giftCard} />   
+      <Promotions list={promotionsDetails} />   
+      <ManageGiftCards   />   
       <CategoriesCard list={categoryCards} />   
       <SupportedBlockchains list={blockChainList} />   
-      {/* <BlogCards list={blogCard} />    */}
+      <BlogCards list={blogCard} />   
       </div>
     </div>
   )
