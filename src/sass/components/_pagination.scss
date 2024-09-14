@@ -1,0 +1,25 @@
+.pagination{
+    display:flex;
+    align-items:center;
+      justify-content: center;
+      margin:2rem 0;
+    margin-left:auto !important;
+    button {
+    margin: 5px;
+    padding: 10px 1rem;
+    border: none; 
+    cursor: pointer;
+    font-family: "Poppins";
+    &:hover{
+        background:rgb(181, 177, 177);
+
+         
+    }
+    }
+
+button:disabled {
+   color:rgb(181, 177, 177); 
+   background:transparent;
+}
+ 
+}

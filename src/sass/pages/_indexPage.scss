@@ -1,0 +1,242 @@
+.indexPage {
+  // heroBg
+  .heroBg { 
+    // background-image:url("/images/indexPage/heroBG.png");
+    //   // height: 90vh;
+    // background-repeat: no-repeat;
+    // background-size: fill;
+
+    .bgHeroContainer {
+      height: 74vh;
+      width: 100%;  
+      img {
+        height: 90%;
+        width: 90%;
+        margin-top: -.5rem
+      }
+    }
+  }
+  .textHeroBg {
+    .linkText{
+      &:hover{
+        color:red !important;
+      }
+    }
+    .d-flex{ 
+      display:flex;
+         position: absolute; // background:red;
+         // padding: 0rem 2rem; // inset: 0;
+         top: 8rem; // z-index: 0;
+        align-items: center;
+            justify-content: center;
+      }
+
+ 
+    .topImage {
+      width: 110px !important; 
+    height: unset;
+    position: absolute;
+    margin-top: -12rem;
+    margin-left: 4rem;
+    }
+    h1 {
+      font-size:  40px;
+      font-weight: 700;
+      line-height: 51px;
+      text-align: left;
+      color: white;
+      max-width: 707px;
+      gap: 0px;
+      margin-top:-4rem;
+      margin-bottom:2rem;
+    }
+    p {
+      font-family: Inter;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 28px;
+      text-align: left;
+      color: rgba(255, 255, 255, 1);
+      max-width: 628px;
+    }
+    .Typical {
+      display: inline;
+      font-size:  40px;
+      font-weight: 700;
+      line-height: 51px;
+      text-align: left;
+      color: rgba(255, 211, 51, 1);
+      max-width: 707px;
+      gap: 0px;
+      padding-left: 1rem;
+    }
+  }
+  .ContainerBox {
+    margin-top: 4rem !important;
+    padding: 0 4rem;
+  }
+  .productContainer {
+    // m,ar
+    .header {  
+      margin-bottom: 1rem;
+      align-items: center;
+      h1 {
+        font-family: Poppins;
+        font-size: 40px ;
+        font-weight: 700;
+        line-height: 37px;
+        text-align: left;
+        color: $primary;
+
+      }
+      h3 {
+        font-family: Poppins;
+        font-size: 21px;
+        font-weight: 700;
+        line-height: 20px;
+        text-align: left;
+        color: $secondary; 
+      } 
+      h4 {
+        font-family: Poppins;
+        font-size: 24px;
+        font-weight: 300;
+        line-height: 32px;
+        text-align: left;
+        color: $secondary;
+      }
+      p{
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+
+      }
+      display: flex;
+      justify-content: space-between;
+      .location_text {
+        color: $primary-color;
+        font-weight: 700;
+      }
+    }
+    margin-top: 4rem;
+    .products {
+      display: flex;
+      align-items: center;
+      // margin: auto;
+      .btn { 
+        padding: 5px 6px 5px 6px;
+        gap: 10px;
+        border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+        background: rgba(232, 238, 255, 1);
+      }
+    }
+    .productList {
+      display: flex; 
+      margin: auto;
+      overflow-x: scroll; 
+      overflow-y: hidden; 
+      padding: 0;
+      li {
+        list-style: none;
+        margin: 0 1rem;
+        .productImage {
+          width: 280px !important;
+          height: 190px;
+          border-radius: 10px 0px 0px 0px;
+          -webkit-border-radius: 10px 0px 0px 0px;
+          -moz-border-radius: 10px 0px 0px 0px;
+          -ms-border-radius: 10px 0px 0px 0px;
+          -o-border-radius: 10px 0px 0px 0px;
+}
+      }
+    }
+  }
+
+
+
+// ManageGiftCards
+
+  .ManageGiftCards{
+    // display: flex;
+
+    align-items: center;  
+    
+    img{
+      width:100 !important;
+    }
+    h1{
+      font-family: Poppins;
+font-size: 60px;
+font-weight: 700;
+line-height: 67px;
+text-align: left;
+color: $secondary;
+
+    }
+    p{
+      max-width: 553px;
+      font-family: Poppins;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: left;
+      margin:2rem 0;
+
+    }
+    
+  }
+
+  // SupportedBlockchains
+  .SupportedBlockchains{
+    h1{
+      font-family: Poppins;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 47px;
+    text-align: center;
+     
+
+    }
+    .blockChainIcons{
+      width: 100.34px !important;
+      height: 172.34px ; 
+    }
+    img{
+      width: 100px !important;
+    }
+  }
+
+  // BlogCards
+  .blogTxt{
+    width: 95%;
+    margin:auto;
+    background: rgba(217, 217, 217, 1);
+  display:flex;
+  justify-content: space-between; 
+  height: 60px;  
+  align-items: center;
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 47px; 
+  
+  // div{
+  //   border:1rem solid rgba(217, 217, 217, 1);
+   
+
+  // }
+  }
+}
+
+.categoresCardList{
+  
+  .productImage{
+    min-width:380px !important;   
+  }
+}

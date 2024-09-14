@@ -1,0 +1,69 @@
+.faq {
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+  flex-wrap: wrap;
+  flex-shrink: 1;
+  box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+  padding: 3rem;
+  margin: auto;
+    .card {
+    border: none;
+    }
+  img {
+    width: 44px !important;
+    height: 44px !important;
+    margin-left: 1rem;
+  }
+  .card-title {
+    color: $secondary;
+    max-width: 339px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: inline-block;
+  }
+  a {
+    color: $secondary;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+    display: inline-block;
+  }
+  border-radius: 0.2rem; 
+}
+
+
+ 
+.faq::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 2px solid transparent;
+  border-image: linear-gradient(
+    to left,  
+    rgba(33, 66, 147, 1),
+    rgb(193, 53, 10),
+    rgba(236, 32, 39, 1)
+  );
+  border-image-slice: 1;
+  border-radius: 0.6rem;
+  pointer-events: none;  
+  z-index: 1;  
+}
+
+.faq > * {
+  position: relative; 
+  z-index: 2;
+}

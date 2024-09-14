@@ -1,0 +1,17 @@
+.zoom {
+  transition: transform 0.3s !important;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.zoom1 {
+  transition: transform 0.3s !important;
+  &:hover {
+    transform: scalex(1.01);
+    -webkit-transform: scalex(1.01);
+    -moz-transform: scalex(1.01);
+    -ms-transform: scalex(1.01);
+    -o-transform: scalex(1.01);
+  }
+}

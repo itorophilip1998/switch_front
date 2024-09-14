@@ -1,0 +1,108 @@
+ 
+// custom 
+@media only screen and (max-width: 1200px) {
+    .bottomLogo{
+        width: 100px !important;
+        margin-top: -1rem;
+         margin-bottom: 1.5rem;
+    }
+    .textHeroBg{    
+       top: 2rem !important; 
+       img { 
+      height: 66vh; 
+    }
+    }
+       .bgHeroContainer {
+    img{  height: 74vh;}
+       }
+    .topImage{
+        display:none;
+    }
+    .indexPage .textHeroBg h1 ,.Typical{
+    font-size: 2rem !important;
+    font-weight: 700 !important;
+    line-height: 50px !important;  
+    }
+    .linkText{
+        width:100% !important;
+        margin-top:0rem !important;
+    } 
+  .faq{
+    width:98% !important;
+    margin: auto !important;  
+  
+  }
+
+
+}
+
+
+ /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .productContainer{
+    margin-top:.4rem !important
+  }
+   .categoriesCustomList{
+     padding-left:0 !important;
+   }
+    .bgHeroContainer {
+      img {
+        height: 64vh !important;  
+      }
+    }
+    .productImage { 
+          height: unset !important;
+    }
+    .faq{ 
+     .card{ 
+    width: 100% !important; 
+     }
+  }
+  .logoFooter{
+    width:100% !important;
+  }
+    .copyRight{
+        display:block !important;
+        text-align:center !important;
+  }
+  .ManageGiftCards{
+    
+h1{
+  font-size: 30px !important;
+line-height: 35px !important;
+        margin-top:2rem !important;
+
+}
+  }
+   .footerList{ 
+    justify-content: flex-start !important;
+    padding-left:1rem !important;
+     
+        ul{
+            width:100% !important;
+            margin-top:1rem !important;
+
+        }
+      }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+   
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .containerLayout{
+        width: 95% !important;
+        margin:auto;
+      }
+}

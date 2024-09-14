@@ -1,0 +1,237 @@
+header {
+
+  //   background-image: url("/images/indexPage/headerBg.svg");
+  //   background-repeat: no-repeat !important;
+  //   background-size: cover;
+  nav {
+
+    .rightList,
+    ul,
+    li {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      list-style-type: none !important;
+    }
+
+    .startList {
+      margin-right: 2.4rem;
+      margin-left: .9rem;
+    }
+
+    .searchIcon {
+      position: absolute;
+      margin-left: 0.6rem;
+      margin-top: .2.5rem;
+    }
+
+    input {
+      padding-left: 2rem !important;
+      font-size: 12;
+      color: rgba(0, 0, 0, 0.3);
+      border-radius: 12px !important;
+      min-width: 284px !important;
+      // max-width: 380px !important;
+      max-height: 35px !important;
+      margin-top: -.5rem;
+      //margin-right: -2rem;
+      -webkit-border-radius: 12px !important;
+      -moz-border-radius: 12px !important;
+      -ms-border-radius: 12px !important;
+      -o-border-radius: 12px !important;
+    }
+  }
+
+  .nav1 {
+    padding-top: 0;
+  }
+.linkHover{
+
+        &:hover,
+        &:active {
+          color: $linkBorder !important;
+        }
+}
+  .nav2 {
+    margin-top: -2rem;
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+
+    .login {
+      width: 120px !important;
+      // height: 30px !important;
+      padding:.2rem 1.2rem;
+    }
+
+    button {
+      margin: auto 0.3rem;
+    }
+
+    .notificationBadge {
+      margin-top: 1.7rem;
+      font-size: 12px;
+    }
+
+    ul {
+      padding-left: 1.4rem;
+    }
+
+    .routeLinks {
+      margin: 0 1rem;
+      border: 2px solid transparent !important;
+
+      a {
+        padding: 0;
+
+        &:hover,
+        &:active {
+          color: $linkBorder !important;
+        }
+      }
+    }
+  }
+
+  .linearBorderRight {
+    background: $linearRightBg;
+    border-radius: 0 0 0 25px;
+    flex-shrink: 0; // width: 60vw;
+    width: max(50%, min(100%, 50%));
+    height: 20px;
+  }
+
+  .linearBorderLeft {
+    background: $linearLeftBg;
+    border-radius: 0 25px 0 0;
+    flex-shrink: 0;
+    width: max(50%, min(100%, 50%));
+    height: 27px;
+    -webkit-border-radius: 0 25px 0 0;
+    -moz-border-radius: 0 25px 0 0;
+    -ms-border-radius: 0 25px 0 0;
+    -o-border-radius: 0 25px 0 0;
+  }
+
+  .linearBorderLeftContainer {
+    position: absolute;
+    width: 100%;
+    margin-top: -1rem;
+    z-index: -1;
+  }
+}
+
+.link {
+  cursor: pointer;
+  text-decoration: none !important;
+}
+
+.nav-item {
+  font-size: 15px !important;
+  color: #000 !important;
+  
+}
+
+.navbar-brand {
+  margin-top: -.6rem;
+ img{
+   width:160px;
+ }
+}
+
+.mobileNav {
+  ul {
+    padding: 1rem;
+
+    li {
+      color: white;
+      list-style: none;
+      padding: .5rem 0;
+    }
+  }
+
+  padding:1rem;
+  z-index: 1000;
+  background: $mobileNav;
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: -100%;
+  z-index: 1000;
+  animation: slideIn 0.5s forwards;
+  -webkit-animation: slideIn 0.5s forwards;
+}
+
+@keyframes slideIn {
+  from {
+    right: -100%;
+  }
+
+  to {
+    right: 0;
+  }
+}
+
+
+
+
+.cartDropDown {
+  .dropdown-menu {
+    width: 330px !important;
+  }
+
+  .closeCart {
+    display: flex;
+    justify-content: flex-end !important;
+
+  }
+
+  .cartItemCollection {
+    display: flex;
+    justify-content: space-around !important;
+
+
+    img {
+      border: 1px solid #d3d3d3;
+      width: 55px !important;
+      height: 55px !important;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+      object-fit: cover;
+
+    }
+
+    .cartProductQuantity {
+      border: 1px solid #d3d3d3;
+      border-radius: 4px;
+      padding: .3rem;
+      display: flex;
+      align-items: center !important;
+
+      input {
+        min-width: 30px !important;
+        min-height: 25px !important;
+        padding: 0 !important;
+        display: inline;
+        border-radius: .3rem !important;
+        margin: 0 !important;
+        text-align: center !important;
+        margin-top: 0 !important;
+      }
+
+      button {
+        background: $primary;
+        color: #fff;
+        width: 30px;
+        height: 25px;
+        cursor: pointer;
+        padding: 0;
+        font-size: 16px;
+
+      }
+    }
+  }
+
+}

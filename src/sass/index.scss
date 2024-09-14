@@ -1,0 +1,45 @@
+ul::-webkit-scrollbar {
+    display: none !important;
+  }
+   
+  ul {
+    -ms-overflow-style: none !important;   
+    scrollbar-width: none !important; 
+ }
+ 
+ 
+//primeReact UI Library
+@import "primereact/resources/themes/lara-light-indigo/theme.css";
+@import 'primereact/resources/themes/saga-blue/theme.css';
+@import 'primereact/resources/primereact.min.css';
+// @import 'primeicons/primeicons.css';
+@import "primereact/resources/primereact.min.css";
+@import "react-toastify/dist/ReactToastify.css";
+
+// import utils
+@import './utils/fonts'; 
+@import './utils/variables';
+@import './utils/animation';
+@import './utils/colors';
+@import './utils/responsive';
+@import './utils/typography';
+
+// import layouts
+@import './layouts/header';
+@import './layouts/footer';
+
+
+// import components
+@import './components/button';
+@import './components/faq';
+@import './components/pagination';
+@import './components/loading';
+
+
+// import pages
+@import './pages/indexPage';
+@import './pages/categories';
+@import './pages/product';
+@import './pages/payment';
+ 
+

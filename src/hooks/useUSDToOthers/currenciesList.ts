@@ -1,0 +1,212 @@
+export const currencySymbols = {
+  AAVE: {
+    symbol: 'AAVE',
+    iconUrl: 'https://d1vo6gxh6hbvvc.cloudfront.net/fiats/66b5b1e5-c7ef-475c-bbd5-9f282176b245.png',
+    currency: 'Aave',
+  },
+  APE: {
+    symbol: 'APE',
+    iconUrl: 'https://d1vo6gxh6hbvvc.cloudfront.net/fiats/b63e8b56-9074-4200-affb-6db0888b57f5.png',
+    currency: 'ApeCoin',
+  },
+  BAT: {
+    symbol: 'BAT',
+    iconUrl: 'https://d1vo6gxh6hbvvc.cloudfront.net/fiats/d9de5201-588b-4917-8346-f1a9cc13fa3e.png',
+    currency: 'Basic Attention Token',
+  },
+  BNB: {
+    symbol: 'BNB',
+    iconUrl:
+      'https://mixin-images.zeromesh.net/1_44tuBHW1cFfsPnzmzQE8aULR438AT_fjqOsXJp1LEVPSDHox45dI0WGsnzgz9rDRYnA92sWMaMDGWt-oePEFV5qp8HrCFvd7I=s128',
+    currency: 'BNB',
+  },
+  BOME: {
+    symbol: 'BOME',
+    iconUrl: 'https://d1vo6gxh6hbvvc.cloudfront.net/fiats/402c8cc6-bc56-495e-b880-e4d6272d0d98.png',
+    currency: 'BOOK OF MEME',
+  },
+  BTC: {
+    symbol: 'BTC',
+    iconUrl: 'https://d1vo6gxh6hbvvc.cloudfront.net/fiats/c6d0c728-2624-429b-8e0d-d9d19b6592fa.png',
+    currency: 'Bitcoin',
+  },
+  DAI: {
+    symbol: 'DAI',
+    iconUrl: 'https://d1vo6gxh6hbvvc.cloudfront.net/fiats/89faa28c-c0f0-41f2-97ef-c74cccaa4fe1.png',
+    currency: 'DAI',
+  },
+  DOGE: {
+    symbol: 'DOGE',
+    iconUrl: 'https://d1vo6gxh6hbvvc.cloudfront.net/fiats/6770a1e5-6086-44d5-b60f-545f9d9e8ffd.png',
+    currency: 'Dogecoin',
+  },
+  EOS: {
+    symbol: 'EOS',
+    iconUrl: 'https://d1vo6gxh6hbvvc.cloudfront.net/fiats/6cfe566e-4aad-470b-8c9a-2fd35b49c68d.png',
+    currency: 'EOS',
+  },
+  ETH: {
+    symbol: 'ETH',
+    iconUrl: 'https://d1vo6gxh6hbvvc.cloudfront.net/fiats/2852c5fa-5818-4abb-82c8-172ad52c776c.png',
+    currency: 'Ethereum',
+  },
+  FDUSD: {
+    symbol: 'FDUSD',
+    iconUrl: 'https://d1vo6gxh6hbvvc.cloudfront.net/fiats/3cff21e7-d737-46e0-b0f3-64bbf1019fb3.png',
+    currency: 'First Digital USD',
+  },
+  FIL: {
+    symbol: 'FIL',
+    iconUrl: 'https://d1vo6gxh6hbvvc.cloudfront.net/fiats/08373f84-9332-462f-a316-b85a79abf16b.png',
+    currency: 'Filecoin',
+  },
+  FLOW: {
+    symbol: 'FLOW',
+    iconUrl: 'https://d1vo6gxh6hbvvc.cloudfront.net/fiats/8aca3dfb-23b6-4d9b-b0d1-460bf751caa2.png',
+    currency: 'Flow',
+  },
+  FLOKI: {
+    symbol: 'FLOKI',
+    iconUrl: 'https://d1vo6gxh6hbvvc.cloudfront.net/fiats/074f67c3-8a2b-48ab-a2c4-14c5f61c17a2.png',
+    currency: 'FLOKI',
+  },
+  JTO: {
+    symbol: 'JTO',
+    iconUrl: 'https://d1vo6gxh6hbvvc.cloudfront.net/fiats/4d3f15ec-8e04-45d0-9151-21514313e671.png',
+    currency: 'Jito',
+  },
+  LIME: {
+    iconUrl: 'https://d1vo6gxh6hbvvc.cloudfront.net/fiats/1e7c69f5-6408-4e15-9368-a27a641a8bcc.png',
+    symbol: 'LIME',
+    currency: 'LIME(BEP20)',
+  },
+  LINK: {
+    symbol: 'LINK',
+    iconUrl: 'https://d1vo6gxh6hbvvc.cloudfront.net/fiats/f6f1c01c-8489-3346-b127-dc0dc09b9ce7.png',
+    currency: 'Chainlink',
+  },
+  LTC: {
+    symbol: 'LTC',
+    iconUrl: 'https://d1vo6gxh6hbvvc.cloudfront.net/fiats/76c802a2-7c88-447f-a93e-c29c9e5dd9c8.png',
+    currency: 'Litecoin',
+  },
+  MANA: {
+    symbol: 'MANA',
+    iconUrl: 'https://d1vo6gxh6hbvvc.cloudfront.net/fiats/60a555f3-bc18-40ed-bbff-f160b703b3a7.png',
+    currency: 'Decentraland MANA',
+  },
+  MATIC: {
+    symbol: 'MATIC',
+    iconUrl: 'https://d1vo6gxh6hbvvc.cloudfront.net/fiats/3cd75b0a-1bf0-44a3-ae2c-9e7c538d9800.png',
+    currency: 'Matic (Polygon)',
+  },
+  RAY: {
+    symbol: 'RAY',
+    iconUrl: 'https://d1vo6gxh6hbvvc.cloudfront.net/fiats/12feafd2-0897-4aed-9301-0469f8de981d.png',
+    currency: 'Raydium',
+  },
+  SHIB: {
+    symbol: 'SHIB',
+    iconUrl: 'https://d1vo6gxh6hbvvc.cloudfront.net/fiats/dcde18b9-f015-326f-b8b1-5b820a060e44.png',
+    currency: 'Shiba Inu',
+  },
+  SOL: {
+    symbol: 'SOL',
+    iconUrl: 'https://d1vo6gxh6hbvvc.cloudfront.net/fiats/e197d70b-866f-47f6-bdb9-61d3df9b50dc.png',
+    currency: 'Solana',
+  },
+  TON: {
+    symbol: 'TON',
+    iconUrl: 'https://d1vo6gxh6hbvvc.cloudfront.net/fiats/ef660437-d915-4e27-ad3f-632bfb6ba0ee.png',
+    currency: 'Toncoin',
+  },
+  TRX: {
+    symbol: 'TRX',
+    iconUrl: 'https://d1vo6gxh6hbvvc.cloudfront.net/fiats/25dabac5-056a-48ff-b9f9-f67395dc407c.png',
+    currency: 'TRON',
+  },
+  TUSD: {
+    symbol: 'TUSD',
+    iconUrl: 'https://d1vo6gxh6hbvvc.cloudfront.net/fiats/f65f7d2a-99c2-45e1-a084-c1f81780c474.png',
+    currency: 'TrueUSD',
+  },
+  UNI: {
+    symbol: 'UNI',
+    iconUrl: 'https://d1vo6gxh6hbvvc.cloudfront.net/fiats/a31e847e-ca87-3162-b4d1-322bc552e831.png',
+    currency: 'Uniswap',
+  },
+  USDC: {
+    symbol: 'USDC',
+    iconUrl: 'https://d1vo6gxh6hbvvc.cloudfront.net/fiats/f5305f89-6da9-4153-9cf1-495a10819330.png',
+    currency: 'USDC',
+  },
+  USDT: {
+    symbol: 'USDT',
+    iconUrl: 'https://d1vo6gxh6hbvvc.cloudfront.net/fiats/388ec195-eeff-49d1-9b57-e4461b2db9dc.png',
+    currency: 'Tether',
+  },
+  W: {
+    symbol: 'W',
+    iconUrl: 'https://d1vo6gxh6hbvvc.cloudfront.net/fiats/d00c2998-a053-4566-90a8-4f4fc27d3b40.png',
+    currency: 'Wormhole',
+  },
+  WIF: {
+    symbol: 'WIF',
+    iconUrl: 'https://d1vo6gxh6hbvvc.cloudfront.net/fiats/ea516220-0202-43c0-bc32-b17b5594878e.png',
+    currency: 'dogwifhat',
+  },
+  XIN: {
+    symbol: 'XIN',
+    iconUrl: 'https://d1vo6gxh6hbvvc.cloudfront.net/fiats/c94ac88f-4671-3976-b60a-09064f1811e8.png',
+    currency: 'XIN(ERC20)',
+  },
+  XRP: {
+    symbol: 'XRP',
+    iconUrl: 'https://d1vo6gxh6hbvvc.cloudfront.net/fiats/70c8090c-eb9a-4d89-845b-742e7e9922b7.png',
+    currency: 'Ripple',
+  },
+  XMR: {
+    symbol: 'XMR',
+    iconUrl: 'https://d1vo6gxh6hbvvc.cloudfront.net/fiats/ded9fc3e-45f8-4c9b-837e-82a69cb1d6e8.png',
+    currency: 'Monero',
+  },
+};
+
+export const PREFERRED_CURRENCIES = [
+  'AAVE',
+  'APE',
+  'BAT',
+  'BNB',
+  'BOME',
+  'BTC',
+  'DAI',
+  'DOGE',
+  'EOS',
+  'EOS',
+  'ETH',
+  'FDUSD',
+  'FIL',
+  'FLOKI',
+  'FLOW',
+  'JTO',
+  'LIME',
+  'LINK',
+  'LTC',
+  'MANA',
+  'MATIC',
+  'RAY',
+  'SHIB',
+  'SOL',
+  'TON',
+  'TRX',
+  'TUSD',
+  'UNI',
+  'USDC',
+  'USDT',
+  'W',
+  'WIF',
+  'XIN',
+  'XMR',
+  'XRP',
+];
+export const TOP_CURRENCIES = ['USDT', 'USDC', 'BTC', 'ETH', 'BNB', 'DOGE', 'SOL'];

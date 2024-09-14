@@ -1,0 +1,37 @@
+  
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/fonts/Poppins/Poppins-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/Inter/static/Inter-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/fonts/Inter/static/Inter-Bold.ttf') format('truetype');
+}
+body,*,button { 
+  font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3,p ,div,span,*,button,.btn{
+  font-family: 'Poppins', sans-serif !important;
+}
+
+ 

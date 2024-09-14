@@ -1,0 +1,10 @@
+services:
+  app:
+    container_name: switchive-frontend
+    build:
+      context: .
+      dockerfile: Dockerfile
+    env_file:
+      - .env.production
+    ports:
+      - 3000:3000
